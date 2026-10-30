@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "autotrade",
+  "version": "1.0.0",
+  "name": "AutoTrade Mod",
+  "description": "Автоматическая торговля с жителями по команде /autotrade",
+  "authors": [
+    "Developer"
+  ],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.example.autotrade.AutoTradeClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.21",
+    "minecraft": ">=1.21.11",
+    "fabric-api": "*"
+  }
+}
